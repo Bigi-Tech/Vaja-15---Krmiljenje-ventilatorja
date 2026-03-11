@@ -31,6 +31,8 @@ Mikrokrmilnik STM32L476RGTx ima pine konfigurirane na naslednji način:
    * S pritiskom na modro tipko (PC13) se sproži EXTI zunanja prekinitev. V prekinitveni rutini `HAL_GPIO_EXTI_Callback` se preveri, ali je temperatura varna (`T2int < 45`). Le v tem primeru se LED ugasne in postavi `Alarm_OFF = 1`. Zaradi mehanskih odbojev tipke je v rutini uporabljena programska zakasnitev.
 
 ---
+## Posnetek delovanja
+<a href="https://youtu.be/8FKV-e0Ux0M">Posnetek delovanja</a>
 
 ## Slika Pinouta iz CubeIDE
 <img width="727" height="579" alt="image" src="https://github.com/user-attachments/assets/93f990d6-0cb6-4fd0-99f8-238bf923ab16" />
